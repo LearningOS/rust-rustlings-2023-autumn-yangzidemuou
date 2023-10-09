@@ -15,7 +15,8 @@ use std::f32;
 
 fn main() {
     let pi = 3.14f32;
-    let radius = 5.00f32;
+    let mut radius = 5.00f32;
+
 
     let area = pi * f32::powi(radius, 2);
 
